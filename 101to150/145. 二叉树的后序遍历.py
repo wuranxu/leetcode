@@ -38,7 +38,7 @@ class Solution:
 
         def dfs(node: TreeNode):
             if node is None:
-                return None
+                return
             dfs(node.left)
             dfs(node.right)
             ans.append(node.val)
